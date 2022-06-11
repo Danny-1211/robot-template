@@ -71,3 +71,88 @@
     left: 20px;
     border-radius: 50%;
 }
+
+@media(max-width:768px){
+    .l-header{
+        background-image: url('/chatTalker_images/home.svg'),url('/chatTalker_images/bg_home_sm.svg');
+        background-position: bottom  0% right 60% , bottom 10% right 60%;
+        background-size: 65% , 65%;
+        margin-bottom: $margin-bs*5;
+    }
+    .navbar{
+        max-width:100%;
+        border-bottom: #FFD153 2px solid;
+        margin:0;
+    }
+    .platform{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .messger{
+        margin-bottom: $margin-bs*3;
+    }
+    .line{
+        margin-bottom: $margin-bs*3;
+    }
+    .instagram{
+        margin-bottom: $margin-bs*3;
+    }
+    .character{
+        flex-wrap: wrap ;
+    }
+    .active{
+        margin-bottom: $margin-bs*3;
+    }
+    .creater{
+        margin-bottom: $margin-bs*3;
+    }
+    .brand{
+        margin-bottom: $margin-bs*3;
+    }
+    .other{
+        margin-bottom: $margin-bs*3;
+        margin-right: $margin-bs;
+    }
+    .fc {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .function-infor{
+        max-width: 335px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 20px;
+        margin-bottom: $margin-bs*3;
+    }
+    .function{
+        max-width: 100%;
+        align-items: center;
+    }
+    .f-item{
+        width: 240px;
+        padding:20px;
+        margin: 0px;
+    }
+    .comment{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cm-item{
+        margin-bottom: $margin-bs *5 ;
+    }
+    .footer-information{
+        h2{
+            font: normal normal normal 20px/29px Noto Sans TC;
+        }
+    }
+}
+@media(max-width:576px){
+    .transform, .chat, .message, .group{
+        margin-right: 0px;
+        margin-bottom: $margin-bs;
+    }
+}
