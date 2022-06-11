@@ -1,0 +1,125 @@
+$font-bs: 16px;
+$margin-bs: 16px;
+.h2-title{
+    font-size: $font-bs*2;
+}
+.my-2{
+    margin: $margin-bs*2 0;
+}
+.mb-2{
+    margin-bottom: $margin-bs*2;
+}
+.mb-4{
+    margin-bottom: $margin-bs*4;
+}
+.mt-4{
+    margin-top: $margin-bs*4;
+}
+.mr-1{
+    margin-right:$margin-bs;
+}
+.mr-2{
+    margin-right:$margin-bs*2;
+}
+.ml-1{
+    margin-left:$margin-bs;
+}
+.w-25{
+    max-width:25%;
+}
+.w-50{
+    max-width:50%;
+}
+.w-75{
+    max-width:75%;
+}
+.p-1{
+    padding:16px;
+}
+.p-2{
+    padding: 20px;
+}
+.p-4{
+    padding: 40px;
+}
+.py-2{
+    padding: 0px 20px;
+}
+.pb-2{
+    padding-bottom: 20px;
+}
+.fw-mainTitle{
+    font: normal normal bold 48px/70px Noto Sans TC;
+}
+.fw-secondTitle{
+    font: normal normal bold 32px/46px Noto Sans TC;
+}
+.fw-text{
+    font: normal normal normal 16px/24px Noto Sans TC;
+}
+.fw-secondText{
+    font: normal normal bold 18px/26px Noto Sans TC;
+}
+.fw-thirdText{
+    font: normal normal normal 20px/29px Noto Sans TC;
+}
+.fw-platformText{
+    font: normal normal bold 24px/35px Noto Sans TC;
+}
+.fc-blue{
+    color:#56C4C5;
+}
+.fc-gray{
+    color:#747474;
+}
+.text-center{
+    text-align: center;
+}
+.flex-column-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex-column-end{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.flex-column-around{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+.flex-column-between{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-start{
+    align-items: flex-start;
+}
+.flex-row-around{
+    display: flex;
+    justify-content: space-around;
+}
+.flex-row-between{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-row-center{
+    display: flex;
+    justify-content: center;
+}
+.border-br{
+    border-radius:12px 12px 0px 0px;;
+}
+@media(max-width:500px) {
+    .fw-title{
+        font: normal normal bold 20px/23px Noto Sans TC;
+    }
+}

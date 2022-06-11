@@ -1,0 +1,16 @@
+.l-container{
+    max-width: 1088px;
+    margin: 0 auto;
+    padding: 0 20px;
+    // border: 1px solid black;
+}
+.l-footer{
+    background-color: #F5F5F5;
+}
+.l-header{
+    background-image: url('../chatTalker_images/home.svg'), url('../chatTalker_images/bg_home.svg');
+    background-repeat: no-repeat no-repeat;
+    background-position: 90% 50%,  right;
+    background-size: 35% , auto;
+    height: 768px;
+}
