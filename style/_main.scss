@@ -75,7 +75,7 @@
 @media(max-width:768px){
     .l-header{
         background-image: url('/chatTalker_images/home.svg'),url('/chatTalker_images/bg_home_sm.svg');
-        background-position: bottom  0% right 60% , bottom 10% right 60%;
+        background-position: bottom  0% right 60% , bottom 0% right 60%;
         background-size: 65% , 65%;
         margin-bottom: $margin-bs*5;
     }
@@ -134,8 +134,9 @@
     }
     .f-item{
         width: 240px;
-        padding:20px;
+        padding:16px;
         margin: 0px;
+        margin-bottom: $margin-bs;
     }
     .comment{
         flex-direction: column;
